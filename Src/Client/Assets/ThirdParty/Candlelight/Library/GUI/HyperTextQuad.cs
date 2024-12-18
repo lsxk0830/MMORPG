@@ -222,6 +222,11 @@ namespace Candlelight.UI
 			}
 			m_ParentMask = newParent;
 		}
+
+        public void SetClipSoftness(Vector2 clipSoftness)
+        {
+            throw new System.NotImplementedException();
+        }
 #endif
-	}
+    }
 }
